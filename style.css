@@ -1,0 +1,95 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url(/sunnyside-agency/images/photos/header.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
+  height: 800px;
+}
+
+.containerNavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 10px;
+}
+.containerNavBar .logo {
+  width: 10%;
+  height: 10%;
+  margin: 20px;
+}
+.containerNavBar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: white;
+}
+.containerNavBar ul li {
+  margin: 20px;
+  font-size: 18px;
+}
+.containerNavBar ul li:hover {
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  padding: 3%;
+}
+
+.contArrowDown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.contArrowDown h1 {
+  font-size: 56px;
+  color: white;
+  margin-bottom: 120px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerArticle {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.article .text {
+  padding: 110px;
+  padding-top: 230px;
+  padding-bottom: 215px;
+}
+.article .text h2 {
+  font-size: 40px;
+}
+.article .text p {
+  font-size: 18px;
+}
+
+/* .imageCyan{
+   .titleCyan{
+         position: absolute;
+   }
+   .textCyan{
+         position: absolute;
+   }
+}
+.imageBlue{
+    .titleBlue{
+         position: absolute;
+    }
+    .textBlue{
+         position: absolute;
+    }
+ } *//*# sourceMappingURL=style.css.map */
